@@ -1,42 +1,22 @@
 # Ejercicio uno
-i = 0
+# i = 0
 
 # while i in (0...20)
 #       i += 1
 #   if i.even? == true
 #   puts (" #{i} es un numero par")
-#   elsif
-#     i.even? == false
-#   puts (" #{i}  no es un numero par")
 # end
 # end
-
-i = 0
-
-while i in (0...20)
-      i += 1
-  if i.even? == true
-  puts (" #{i} es un numero par")
-end
-end
-
-i = 0
-
-while i in (0...20)
-  i += 1
-if i.even? == false
-puts (" #{i} no es un numero par")
-end
-end
 
 # i = 0
 
-# while i <= 19
+# while i in (0...20)
 #   i += 1
-#  if i % 2 == 0
-#   puts "el numero #{i} es par"
-#  end
+# if i.even? == false
+# puts (" #{i} no es un numero par")
 # end
+# end
+
 
 # Ejercicio dos
 # i = 0
