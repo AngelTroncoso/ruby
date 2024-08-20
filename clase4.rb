@@ -40,13 +40,13 @@
 #   puts
 # end
 
-10.downto(7) do |i|
-  puts i
-end
+# 10.downto(7) do |i|
+#   puts i
+# end
 
-1.upto(37) do |i|
-  puts i
-end
+# 1.upto(37) do |i|
+#   puts i
+# end
 
 
 

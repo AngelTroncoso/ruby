@@ -85,13 +85,13 @@
 #     gramos")
 #     end
 
-def perro 
-  puts "Un perro ha salido de la cocina"
-  return
-  puts "El perro se mantiene quieto"
-end
+# def perro 
+#   puts "Un perro ha salido de la cocina"
+#   return
+#   puts "El perro se mantiene quieto"
+# end
 
-perro
+# perro
 
 
 

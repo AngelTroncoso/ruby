@@ -11,7 +11,7 @@
 #    print "Hola #{i}"
 #  end
 
-10.times do |i| 
+# 10.times do |i| 
 
-    puts i 
-end
+#     puts i 
+# end

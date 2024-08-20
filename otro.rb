@@ -44,36 +44,36 @@
 
 # panaderia
 
-puts "Bienvenid@ al calculo del panadero"
+# puts "Bienvenid@ al calculo del panadero"
 
-puts "Ingrese los gr de sal:"
-sal = gets.chomp.to_f
-puts "Ingrese los gr de levadura:"
-levadura = gets.chomp.to_f
-puts "Ingrese los gr de agua:"
-agua = gets.chomp.to_f
+# puts "Ingrese los gr de sal:"
+# sal = gets.chomp.to_f
+# puts "Ingrese los gr de levadura:"
+# levadura = gets.chomp.to_f
+# puts "Ingrese los gr de agua:"
+# agua = gets.chomp.to_f
 
-  def agua(peso)
-  calculo_agua = peso * 0.60
-  puts("El total de agua a utilizar es #{calculo_agua.ceil()} gramos")
-  end
-  def sal(peso)
-  calculo_sal = peso * 0.02
-  puts("El total de sal a utilizar es #{calculo_sal.ceil()} gramos")
-  end
-  def levadura(peso)
-  calculo_levadura = peso * 0.02
-  puts("El total de levadura a utilizar es #{calculo_levadura.ceil()}
-  gramos")
-  end
+#   def agua(peso)
+#   calculo_agua = peso * 0.60
+#   puts("El total de agua a utilizar es #{calculo_agua.ceil()} gramos")
+#   end
+#   def sal(peso)
+#   calculo_sal = peso * 0.02
+#   puts("El total de sal a utilizar es #{calculo_sal.ceil()} gramos")
+#   end
+#   def levadura(peso)
+#   calculo_levadura = peso * 0.02
+#   puts("El total de levadura a utilizar es #{calculo_levadura.ceil()}
+#   gramos")
+#   end
 
-  peso_pan = ARGV[0].to_f.ceil()
-  puts("Para un pan de #{peso_pan} gramos deberás utilizar los siguientes
-  valores en el resto de ingredientes")
-  puts("************************************************")
-  porcentaje_agua(peso_pan)
-  porcentaje_sal(peso_pan)
-  porcentaje_levadura(peso_pan)
+#   peso_pan = ARGV[0].to_f.ceil()
+#   puts("Para un pan de #{peso_pan} gramos deberás utilizar los siguientes
+#   valores en el resto de ingredientes")
+#   puts("************************************************")
+#   porcentaje_agua(peso_pan)
+#   porcentaje_sal(peso_pan)
+#   porcentaje_levadura(peso_pan)
   
 
 
