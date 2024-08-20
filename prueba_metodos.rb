@@ -63,7 +63,7 @@ def mostrar_resultados(imc)
     puts "Estás en obesidad Moderada"
   elsif imc >= 35 && imc <= 39.9
     puts "Estás en obesidad Severa"
-  elsif imc >= 40 
+  elsif imc >= 40
     puts "Estás en obesidad muy severa."
   end
 end
