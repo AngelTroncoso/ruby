@@ -1,4 +1,4 @@
-# Ejercicio uno
+# #Ejercicio1
 # i = 0
 
 # while i in (0...20)
@@ -8,6 +8,7 @@
 # end
 # end
 
+# #ejercicio2
 # i = 0
 
 # while i in (0...20)
@@ -17,22 +18,10 @@
 # end
 # end
 
-
-# Ejercicio dos
-# i = 0
-
-# while i <= 19
-#   i += 1
-#  if i % 2 == 1
-#   puts "el numero #{i} es inpar"
-#  end
-# end
-
-
 # # Ejercicio tres
-# n = 1
+# n = 0
 
-# for i in 0...13
+# for i in 0...10
 #   puts "**********"
 #   for j in 0...13
 #     puts "#{i} * #{j} = #{i * j}"
@@ -44,10 +33,10 @@
 # puts "Ingrese el carácter * o #"
 # c = gets.chomp[0]
 
-# puts "Ingrese el tamaño del triángulo"
+# puts "Ingrese el tamaño del triángulo hacia abajo"
 # t = gets.chomp.to_i
 
 # t.times do |i|
 
-#   puts " " * (t - i - 1) + c * (i * 2 + 1)  # Imprime espacios en blanco para centrar el triángulo y luego imprime el carácter
+#   puts " " * (t - i - 1) + c * (i * 2 + 1) 
 # end
