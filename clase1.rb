@@ -23,10 +23,22 @@
 # variable2 = 2 + variable
 # puts variable2
 
+# lista = ARGV
 
+# print lista
+# puts lista.class
 
+# if (lista.class == 'array')
+#   puts 'Es un array'
+# else
+#   puts 'No es un array'
+# end
 
+# otra forma
+arreglo = ARGV
 
+print arreglo
+puts arreglo.class
 
 
 
