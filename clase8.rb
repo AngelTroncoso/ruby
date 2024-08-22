@@ -3,12 +3,12 @@
 #  lista_elementos = ["1", "2", "3"]
 #  print ("#{lista_elementos} \n")
 #  #Agregando nuevo elemento con el método .push
-#  lista_elementos.push("4")
+#  lista_elementos.push(elemento)
 #  print ("#{lista_elementos} \n")
 
 #  elemento = ARGV[0]
 #  #Lista de elementos original
- lista_elementos = ["1", "2", "3"]
+#  lista_elementos = ["1", "2", "3"]
 #  print ("#{lista_elementos} \n")
 #  #Agregando nuevo elemento con el método .push
 #  lista_elementos.push("4")
@@ -17,25 +17,22 @@
 #  lista_elementos.delete("4")
 #  print ("#{lista_elementos} \n")
 
- #Elmina el últim oelemento del arreglo
+#  #Elmina el último elemento del arreglo
 #  lista_elementos.pop()
 #  print ("#{lista_elementos} \n")
 
- #Lista de elementos original
-#  lista_elementos = ["1", "2", "3"]
- #Membresía existe o no un elemento en el arreglo
-
-#  puts(lista_elementos.include?("1")) # Retorna 
-# true
-#  puts(lista_elementos.include?("10")) # Retorna 
-# false
+# Lista de elementos original
+# lista_elementos = ["1", "2", "3"]
+# #Membresía existe o no un elemento en el arreglo
+# puts(lista_elementos.include?("1")) # Retorna true
+# puts(lista_elementos.include?("10")) # Retorna false
 
 #concatenar arreglos
 # numeros_1 = [1, 2, 3, 4, 5, 6, 7]
 # numeros_2 = [8, 9, 10]
-# puts("#{numeros_1 + numeros_2}")
+# puts("#{numeros_1 + numeros_2} \n")
 
- #Método .map()
+# Método .map()
 #  a = [1, 2, 3, 4, 5, 6, 7]
 #  b = a.map do |e|
 #   e * 2
@@ -93,7 +90,7 @@
 
 # print ventas_totales
 
-#Multiplicar arreglos:
+#Multiplicar duplicando el arreglo:
 # ventas_tienda_1 = [100, 20, 50, 70, 90]
 # print(ventas_tienda_1 * 2)
 
