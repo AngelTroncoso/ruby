@@ -38,9 +38,26 @@
 # print data
 # File.write('output', data.join("\n"))
 
+# require 'csv'
 
+# data = CSV.open('info.csv',converters: :numeric).readlines
 
+# print data
 
+# largo = data.length
+
+# largo.times do |j|
+
+#   data[j][2] += 15
+# end
+
+# print data
+
+# File.write('output', data.join("\n"))
+
+# palabras = 'palabar1', 'palabra2', 'palabra3' .split(':')
+
+#   puts palabras.join(",")
 
 
 
