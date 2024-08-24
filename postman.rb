@@ -11,3 +11,5 @@ request = Net::HTTP::Get.new(url)
 response = https.request(request)
 puts response.read_body
 
+buscar = '#6a5acd'
+
